@@ -14,8 +14,8 @@ div {
 body { 
   font-family: Georgia, 'Times New Roman', Times, serif; 
 } 
-.black-nav { 
-  background: #f7bb14;
+.man-nav { 
+  background: #dcb386;
   width: 100%; 
   display: flex; 
   color: black;
