@@ -13,9 +13,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className='man-nav'>
-        <h4>The Man</h4>
-      </div>
+      <Nav></Nav>
 
       <button onClick={()=> {
         let copy =[...애송이]; 
@@ -62,6 +60,14 @@ function List() {
     <div className='list'>
         <h4>이름</h4>
         <p>생일</p>
+      </div>
+  )
+}
+
+function Nav() {
+  return(
+    <div className='man-nav'>
+        <h4>The Man</h4>
       </div>
   )
 }
